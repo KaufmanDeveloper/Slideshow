@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;
+}
+
+p {
+  text-align: center;
+  font-size: 200%;
+}
+
+#slider {
+  background-image: url("images/mountain.jpg");
+  background-size: 100%;
+  background-color: lightblue;
+  max-width: 1000px;
+  height: 250px;
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  border: 2px solid white;
+  background-repeat: no-repeat center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#slider img {
+  width: 100%;
+  height: auto;
+}
+
+#left_button {
+  /*text-align: left;*/
+  width: 30px;
+  cursor: pointer;
+}
+
+#left_button img {
+  opacity: .5;
+}
+
+#right_button {
+  /*text-align: right;*/
+  width: 30px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+#right_button img {
+  opacity: .5;
+}

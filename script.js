@@ -4,6 +4,15 @@
 */
 // Variables
 var iterator = 1;
+/*
+$(document).ready(function(){
+  $("#second").(function(){
+    $("p").hide();
+  });
+  $("#third").click(function(){
+    $("p").hide();
+  });
+});*/
 
 //Slider height modulator
 $(document).ready(function(){
@@ -49,6 +58,10 @@ $(document).ready(function(){
         case 0:
           $('#slider').css("background-image", "url(images/island.jpg)");
           iterator = 3;
+
+          $("#first").hide();
+          $("#second").show();
+
         break;
 
         case 1:

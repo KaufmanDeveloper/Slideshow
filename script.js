@@ -2,7 +2,8 @@
 *  Slider jQuery application by Michael Kaufman
 *  05/15/17
 */
-
+// Variables
+var iterator = 1;
 
 //Slider height modulator
 $(document).ready(function(){
@@ -38,20 +39,8 @@ $(document).ready(function(){
     });
 });
 
-var iterator = 1;
 //Left button operations
 $(document).ready(function(){
-
-    //To iterate through our image gallery
-    /*
-    //Preload our images to avoid load times
-    var island = new image();
-    var mountain = new image();
-    var cat = new image();
-
-    island.src = "images/island.jpg";
-    mountain.src = "images/mountain.jpg";
-    cat.src = "images/cat.jpeg";*/
 
     $("#left_button").click(function(){
       //$("#left_button").hide();

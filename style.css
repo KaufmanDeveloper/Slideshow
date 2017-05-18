@@ -11,14 +11,10 @@ p {
   background-image: url("images/mountain.jpg");
   background-size: 100%;
   background-color: lightblue;
-  max-width: 1000px;
-  height: 250px;
   width: 60%;
-  height: 90%;
   margin: auto;
   border: 2px solid white;
   background-repeat: no-repeat center;
-  position: relative;
   display: flex;
   align-items: center;
 }

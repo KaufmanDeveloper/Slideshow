@@ -7,6 +7,14 @@ p {
   font-size: 200%;
 }
 
+#second{
+  display: none;
+}
+
+#third{
+  display: none;
+}
+
 #slider {
   background-image: url("images/mountain.jpg");
   background-size: 100%;

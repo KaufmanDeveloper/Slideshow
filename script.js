@@ -13,10 +13,10 @@ $(document).ready(function(){
     $("#slider").height($(window).width() / 4);
 });
 
-});
+
 
 //Buttons enlarge on mouse enter and shrink on mouse leave
-$(document).ready(function(){
+
 
     $("#left_button").mouseover(function(){
       $("#left_button").animate({
@@ -37,10 +37,9 @@ $(document).ready(function(){
       $("#right_button").animate({
         width: "30"}, 'fast');
     });
-});
+
 
 //Left button operations
-$(document).ready(function(){
 
     $("#left_button").click(function(){
       //$("#left_button").hide();
@@ -60,10 +59,9 @@ $(document).ready(function(){
         break;
     }
     });
-});
+
 
 //Right button operations
-$(document).ready(function(){
 
     $("#right_button").click(function(){
       //$("#left_button").hide();
@@ -83,4 +81,5 @@ $(document).ready(function(){
         break;
     }
     });
-});
+
+  });

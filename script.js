@@ -57,10 +57,6 @@ $(document).ready(function(){
         case 0:
           $('#slider').css("background-image", "url(images/island.jpg)");
           iterator = 3;
-
-          $("#first").hide();
-          $("#second").show();
-
         break;
 
         case 1:
